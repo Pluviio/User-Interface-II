@@ -234,3 +234,22 @@ p {
 	font-size: 30px;
 
 }
+
+
+@media(max-width: 800px) {
+.footer {
+		height: 150px;
+	}
+}
+@media(max-width: 500px){
+p {
+	font-size: 18px;
+}
+.midimg {
+	width: 300px;
+	height: 300px;
+}
+.footer {
+		height: 150px;
+	}
+}
