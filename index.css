@@ -278,4 +278,57 @@ section .container4 a {
 
 }
 
+ @media(max-width: 800px){
+	header nav {
+		width: 10%;
+		display: flex;
+		flex-flow: row;
+		align-items center;
+		justify-content: center;
+	}
+	p{
+		font-size: 18px;
+	}
+	.midimg {
+		height: 50vh;
+	}
+	section img {
+		width: 200px;
+		height: 200px;
+	}
+	.image2 {
+		display: flex;
+	justify-content: flex-start;
+	justify-content: space-between;
+	padding-left: 75px;
+	padding-right: 75px;
+	}
+	.container3 a {
+		padding-top: 20px;
+		text-align: center;
+	}
+	.container4 a {
+		padding-top: 20px;
+		text-align: center;
+	}
+	.footer {
+		height: 150px;
+	}
+ }
 
+ @media(max-width: 500px) {
+
+	section a{
+		font-size: 20px;
+	}
+	.image2 {
+		display: flex;
+	justify-content: flex-start;
+	justify-content: space-around;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	.midimg {
+		height: 25vh;
+	}
+ }
